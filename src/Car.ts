@@ -2,9 +2,8 @@ import { Controller } from "./utils/Controller"
 import { ctx } from './main'
 import { Abstract } from "./Abstract"
 
-export class Car implements Abstract {
-    private x: number
-    private y: number
+export class Car extends Abstract {
+
 
     private width = 40
     private height = 70
@@ -18,10 +17,8 @@ export class Car implements Abstract {
 
     private controller = new Controller()
 
-    private polygon: { x: number, y: number }[] = []
-
-
     constructor(x: number, y: number) {
+        super()
         this.x = x;
         this.y = y;
     }
