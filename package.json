@@ -1,5 +1,5 @@
 {
-  "name": "TypescriptProject",
+  "name": "car-js",
   "main": "index.html",
   "js-flags": "--expose-gc",
   "window": {
@@ -16,9 +16,9 @@
     "start": "webpack-dev-server --mode development"
   },
   "keywords": [],
-  "author": "Alan Rawkins",
+  "author": "Damien Marchand",
   "license": "ISC",
-  "description": "A starter typscript canvas project",
+  "description": "",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
