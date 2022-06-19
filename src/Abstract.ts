@@ -1,10 +1,12 @@
 export abstract class Abstract {
-    protected polygon: { x: number, y: number }[] = []
+  public polygon: { x: number; y: number }[] = [];
 
-    protected x: number
-    protected y: number
+  public x: number;
+  public y: number;
 
-    draw(){}
+  public physicalType: "solid";
 
-    update(){}
+  draw() {}
+
+  update(elements?: Abstract[]) {}
 }
